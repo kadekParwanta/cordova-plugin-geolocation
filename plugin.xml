@@ -89,7 +89,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </config-file>
       
         <!-- Usage description of the Location for iOS 6+, mandatory since iOS 10 -->
-        <preference name="LOCATION_WHENINUSE_USAGE_DESCRIPTION" default=" " />
+        <preference name="LOCATION_WHENINUSE_USAGE_DESCRIPTION" default="This will allow us to store the location when you issue an infringement." />
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
             <string>$LOCATION_WHENINUSE_USAGE_DESCRIPTION</string>
         </config-file>
